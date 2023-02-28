@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "==1.5.2"
+prefect = "==2.7.7"
+pyarrow = "==10.0.1"
+pandas-gbq = "==0.18.1"
+psycopg2-binary = "==2.9.5"
+requests = "*"
+html5lib = "*"
+bs4 = "*"
+selenium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
